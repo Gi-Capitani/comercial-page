@@ -1,13 +1,8 @@
-* {
-    
-}
-
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #E685A2;
-    
 }
 
 .container {
@@ -16,8 +11,8 @@ html, body {
     grid-template-areas: "h m"
                     "a n"
                     "f f";
-    
 }
+
 header {
     background-color: #E685A2;
     grid-area: h;
@@ -30,16 +25,12 @@ main {
     grid-area: m;
     margin: 0;
     padding: 82px;
-    
 }
 
 aside {
     background-color: #E685A2;
-    grid-area: a;
-    
+    grid-area: a;  
 }
-
-
 
 footer {
     grid-area: f;
@@ -51,8 +42,7 @@ img {
 }
 
 .logo {
-    align-items: initial;
-    
+    align-items: initial;    
 }
 
 .h3 {
@@ -72,8 +62,6 @@ img {
 }
 
 .social_media .link {
-    
-    
     justify-content: space-evenly;
     color: var(--color-neutral-40);
     border-radius: 50%;
