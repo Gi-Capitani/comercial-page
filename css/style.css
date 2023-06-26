@@ -1,67 +1,87 @@
 * {
-    margin: auto;
-    padding: auto;
-    width: auto;
-}
-
-body {
-    background-color: #E685A2;
-}
-
-header {
-    width: 700px;
-    height: 200px;
-    background-color: #f59fdb;
-    
     
 }
 
-img {
-    max-width: 200%;
-    max-height: 150%;
-    width: 2000px;
+html, body {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #E685A2;
+    
 }
 
-.logo {
-    height: 180px;
-    width: 180px;
-    align-items: initial;
-    left: 0;
+.container {
+    display: grid;
+    grid-template-rows: 30vh 65vh 5vh;
+    grid-template-areas: "h m"
+                    "a n"
+                    "f f";
+    
+}
+header {
+    background-color: #E685A2;
+    grid-area: h;
+    width: 70rem;
     margin: 0;
 }
 
-h3 {
-    padding: 25px;
+main {
+    background-color: #E685A2;
+    grid-area: m;
+    margin: 0;
+    padding: 82px;
+    
+}
+
+aside {
+    background-color: #E685A2;
+    grid-area: a;
+    
+}
+
+
+
+footer {
+    grid-area: f;
+}
+
+img {
+    max-width: 270px;
+    max-height: 180%;
+}
+
+.logo {
+    align-items: initial;
+    
+}
+
+.h3 {
+    justify-content: space-evenly;
 }
 
 .services {
-    padding: 10px;
-    width: 1200px;
-    display: contents;
+    padding: 65px;
+    width: 250px;
     gap: 3rem;
     color: rgb(247, 24, 147);
 }
 
 .social_media {
-    display: flex;
-    gap: 4rem;
-    margin-top: 1.5rem;
+    justify-items: center;
+    justify-content: center;
 }
 
 .social_media .link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4.5rem;
-    width: 12.5rem;
+    
+    
+    justify-content: space-evenly;
     color: var(--color-neutral-40);
     border-radius: 50%;
     transition: all 0.4s;
 }
 
 .social_media .link i {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
 }
 
 .social_media .link:hover {
@@ -81,14 +101,11 @@ h3 {
 }
 
 .footer_line {
-    bottom: 0;
-    left: 0;
-    height: 30px;
     width: 100%;
+    padding: 1.5vh;
     background-color: #f59fdb;
     font-size: 1rem;
     font-weight: 100;
     color: #fa1091;
-    position: absolute;
     text-align: center;
 }
