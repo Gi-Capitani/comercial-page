@@ -14,7 +14,15 @@
     -passo 6 - fazer aparecer a imagem de fundo correspondente ao botão clicado
 */
 
-// passo 1 - dar um jeitasso de pegar o elemento html dos botoes
-const botoesCarrossel = document.querySelectorAll('.botao');
-const image = document.querySelectorAll('.imagem');
+  // Obtém todos os botões com a classe "botoes-carrossel"
+const botoes = document.querySelectorAll('.botoes-carrossel');
 
+  // Adiciona um ouvinte de eventos para cada botão
+botoes.forEach(botao => {
+    botao.addEventListener('click', exibirImagem);
+});
+
+function exibirImagem(event) {
+    const target = event.target;
+    const imagemId = target.getAttribute('data-target');
+    const imagem = document.getElementById(imagemId);
