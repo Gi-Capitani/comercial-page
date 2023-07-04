@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&family=Foldit:wght@200;300;400&family=Luckiest+Guy&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Pangolin&family=Roboto:wght@400;700&family=Titan+One&display=swap');
 
-
 *{
     margin: 0;   
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 ul{
     list-style: none;
 }
+
 a{
     text-decoration: none;
 }
@@ -29,7 +29,6 @@ header {
 }
 
 main {
-    
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 1;
@@ -37,7 +36,6 @@ main {
 }
 
 .social_media .link {
-    
     justify-content: space-evenly;
     color: var(--color-neutral-40);
     border-radius: 50%;
@@ -89,7 +87,6 @@ nav {
     padding-bottom: 0;
     height: 100%;
     padding-left: 100px;
-    
 }
 
 #bem_vindo {
@@ -103,7 +100,6 @@ nav {
     padding-bottom: 0;
     width: 100vh;
     height: 60vh;
-    
 }
 
 footer {
@@ -123,7 +119,6 @@ h5 {
     justify-content: center;
     font-size: 1rem;
     font-family: sans-serif;
-    
 }
 
 .endereço {
@@ -155,21 +150,22 @@ h5 {
     justify-content: flex-start;
     gap: 2rem;
     font-family: sans-serif;
-    font-size: 0.5rem;
     color: #fa1091;
 }
 
-.botao_selecionado {
+button .botoes-carrossel {
     background-color: #f59fdb;
     color: #ec51e7;
     border-color: #ec51e7;
     padding: 8px;
     cursor: pointer;
     opacity: 1;
+    font-size: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 20px;
 }
 
-.botao {
-    background-color: #fff;
+.botoes-carrossel {
     color: #ec51e7;
     border-color: #ec51e7;
     cursor: pointer;
@@ -177,10 +173,11 @@ h5 {
     border-radius: 20px;
     padding: 8px;
     padding-left: 25px;
-    
 }
 
-
+.carrossel {
+    display: none; /* Esconde todas as imagens por padrão */
+}
 
 .carrossel{
     position: fixed;
