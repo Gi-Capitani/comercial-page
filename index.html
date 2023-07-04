@@ -42,19 +42,20 @@
         <nav>
             <image id="bem_vindo" src="./css/image/logotip..png" alt="Logo"></image>
             <div class="carrossel">
-                <img class="imagem1" src="./css/image/bemvindo.png" alt="Bem Vindo">
-                <img class="imagem1" src="./css/image/drenagem.png" alt="Drenagem Linfática">
-                <img class="imagem1" src="./css/image/massagem.png" alt="Massagem Modeladora">
-                <img class="imagem1" src="./css/image/limpezadepele.png" alt="Limpeza de Pele">
-                <img class="imagem1" src="./css/image/extensãodecílios.png" alt="Extensão de cílios">
+                <img class="carrossel" id="imagem1" src="./css/image/bemvindo.png" alt="Imagem 1">
+                <img class="carrossel" id="imagem2" src="./css/image/drenagem.png" alt="Imagem 2">
+                <img class="carrossel" id="imagem3" src="./css/image/massagem.png" alt="Imagem 3">
+                <img class="carrossel" id="imagem4" src="./css/image/limpezadepele.png" alt="Imagem 4">
+                <img class="carrossel" id="imagem5" src="./css/image/extensãodecílios.png" alt="Imagem 5">
             </div>
         </nav>
         <aside class="botoes-carrossel">
-            <button class="botao selecionado"> Bem Vindo! </button>
-            <button class="botao"> Drenagem Linfática </button>
-            <button class="botao"> Massagem Modeladora </button>
-            <button class="botao"> Limpeza de Pele </button>
-            <button class="botao"> Extensão de Cílios </button>
+
+                <button class="botoes-carrossel" data-target="imagem1">Bem Vindo!</button>
+                <button class="botoes-carrossel" data-target="imagem2">Drenagem Linfática</button>
+                <button class="botoes-carrossel" data-target="imagem3">Massagem Modeladora</button>
+                <button class="botoes-carrossel" data-target="imagem4">Limpeza de Pele</button>
+                <button class="botoes-carrossel" data-target="imagem5">Extensão de Cílios</button>
         </aside>
     <footer>
         <div class="footer_line">
@@ -62,7 +63,6 @@
             &#169 2023
         </div>
     </footer>
-    <script src="./js/script.js"></script>
     </div>
 </body>
 </html>
