@@ -175,10 +175,6 @@ button .botoes-carrossel {
     padding-left: 25px;
 }
 
-.carrossel {
-    display: none; /* Esconde todas as imagens por padrão */
-}
-
 .carrossel{
     position: fixed;
     top: 0;
@@ -187,16 +183,11 @@ button .botoes-carrossel {
     z-index: -1;
 }
 
-.carrossel .imagem{
+.carrossel {
     width: 40%;
     height: 40vh;
     object-fit: cover;
-    display: none;
     animation: mudarImagem 0.7s;
-}
-
-.carrossel .imagem.ativa{
-    display: block;
 }
 
 .footer_line {
@@ -222,12 +213,15 @@ button .botoes-carrossel {
     header {
         display: table;
     }
+
     aside {
         display: column;
     }
+
     #bem_vindo {
     display: column;
     width: 70vh;
+    height: 40vh;
     padding: 5px;
     }
 
@@ -243,6 +237,7 @@ button .botoes-carrossel {
     .link {
         display: column;
     }
+
     .botoes-carrossel {
         width: 100px;
         display: inline;
@@ -256,6 +251,7 @@ button .botoes-carrossel {
     .container {
         display: table;
     }
+
     h5 {
         display: none;
         
