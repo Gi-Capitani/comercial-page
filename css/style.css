@@ -135,10 +135,9 @@ h5 {
     justify-content: flex-start;
 }
 
-.imagem1 {
+.imagem-1 {
     padding: 40vh;
-    width: 40%;
-    display: none;
+    width: 40%;
 }
 
 .botoes-carrossel {
@@ -265,7 +264,7 @@ button .botoes-carrossel {
     
     #bem_vindo {
         display: flex;
-        justify-items: center;
+        width: 30vh;
     }
 
     .botoes-carrossel {
