@@ -135,11 +135,6 @@ h5 {
     justify-content: flex-start;
 }
 
-.imagem-1 {
-    padding: 40vh;
-    width: 40%;
-}
-
 .botoes-carrossel {
     display: flex;
     flex-direction: column;
@@ -243,12 +238,15 @@ button .botoes-carrossel {
         height: auto;
         grid-gap: 20px;
         justify-content: space-between;
+        cursor: pointer;
     }
 }
 
 @media screen and (max-width: 426px) {
     .container {
         display: table;
+        width: auto;
+        height: auto;
     }
 
     h5 {
@@ -257,20 +255,24 @@ button .botoes-carrossel {
     }
 
     image #head {
-        display: block;
+        display: contents;
         justify-content: center;
-        width: 50vh;
+        width: auto;
+        height: auto;
     }
     
     #bem_vindo {
-        display: flex;
-        width: 30vh;
+        display: center;
+        justify-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .botoes-carrossel {
         display: inline;
         width: 80px;
         padding: 10px;
+        cursor: all-scroll;
     }
     aside {
         padding: 20px;
