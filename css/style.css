@@ -251,7 +251,7 @@ button .botoes-carrossel {
 
     h5 {
         display: none;
-        
+    
     }
 
     image #head {
@@ -277,5 +277,6 @@ button .botoes-carrossel {
     aside {
         padding: 20px;
         justify-content: space-between;
+        width: auto;
     }
 }
