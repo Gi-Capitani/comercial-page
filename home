@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>Bem vinda(o) Maravilhosa(o)!</h1>
+        <h3>Sou Taty Reis, massoterapeuta, dedicada e especialista em bem estar físico e emocional.</h3>
+        <h4>Descubra uma jornada única de relaxamento e rejuvenescimento enquanto combino habilidades excepcionais de massagem com uma abordagem personalizada para atender às suas necessidades individuais. Com paixão e cuidado, farei todo o  esforço para proporcionar uma experiência que vá além do físico, nutrindo sua mente, corpo e alma.
+        </h4>
+        <h3>Por que escolher Taty Reis?</h3>
+        <h4>Experiência Profissional: Com anos de experiência na arte da massoterapia, trago comigo conhecimentos profundos e técnicas especializadas para garantir resultados eficazes.</h4>
+
+        <h4>Abordagem Personalizada: Cada cliente é único, e a minha abordagem reflete essa individualidade. Minhas sessões são adaptadas às suas necessidades específicas, garantindo uma experiência personalizada e eficaz.</h4>
+            
+        <h4>Ambiente Acolhedor: Ao me escolher, você não apenas investe em uma massagem de qualidade, mas também em um ambiente acolhedor e tranquilo, projetado para promover relaxamento e serenidade.</h4>
+            
+        <h4>Variedade de Técnicas: Sou qualificada em diversas técnicas de massagem, o que me permite lhe oferecer uma gama de opções, desde massagem terapêutica até relaxamento profundo.</h4>
+            
+        <h4>Transforme o seu bem-estar, reserve sua sessão hoje e embarque em uma jornada de rejuvenescimento e equilíbrio. Sua saúde merece esse cuidado especial!</h4>
+    </header>
+    <button>Agende seu Horário já!</button>
+    
+</body>
+</html>
